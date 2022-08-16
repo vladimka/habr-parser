@@ -1,0 +1,22 @@
+{
+  "name": "habr-parser",
+  "version": "0.0.1",
+  "description": "Habrahabr topics parser",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "vladimka",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "keypress": "^0.2.1",
+    "node-html-parser": "^5.4.2-0"
+  },
+  "devDependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1"
+  }
+}
